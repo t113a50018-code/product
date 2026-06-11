@@ -312,24 +312,6 @@ a {
   flex-wrap: wrap;
 }
 
-.upload-wrapper {
-  display: grid;
-  gap: 0.75rem;
-  margin-top: 1.25rem;
-}
-
-.upload-wrapper label {
-  font-weight: 600;
-}
-
-.upload-wrapper input[type="file"] {
-  border: 1px solid rgba(29, 26, 22, 0.15);
-  border-radius: 16px;
-  padding: 0.85rem 1rem;
-  background: #fff;
-  cursor: pointer;
-}
-
 .thumb {
   border: 2px solid transparent;
   border-radius: 20px;

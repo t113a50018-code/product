@@ -36,15 +36,6 @@ thumbButtons.forEach((button) => {
   });
 });
 
-const uploadInput = document.getElementById('uploadImageInput');
-uploadInput?.addEventListener('change', (event) => {
-  const target = event.target;
-  const file = target.files?.[0];
-  if (!file || !file.type.startsWith('image/')) return;
-  previewImage.src = URL.createObjectURL(file);
-  thumbButtons.forEach((item) => item.classList.remove('active'));
-});
-
 const internalLinks = document.querySelectorAll('a[href^="#"]');
 internalLinks.forEach((link) => {
   link.addEventListener('click', (event) => {
